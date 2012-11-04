@@ -17,8 +17,6 @@ int main(int argc, char *argv[])
 
     int frameTime = 0;
     int oldTicks = system.getTicks();
-	
-	int x = 1/0;
 
     while(system.isRunning() && !system.getInput()->keyDown(SDLK_ESCAPE))
     {
