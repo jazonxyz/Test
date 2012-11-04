@@ -1,3 +1,12 @@
+#MY igonres
+
+*.o
+*.exe
+*.cpb
+*.depend
+*.layout
+*.dll
+
 #################
 ## Eclipse
 #################

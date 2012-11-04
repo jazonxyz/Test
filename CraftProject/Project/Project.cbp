@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Project" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Users\Toshiba\Desktop\CraftProject\Project\.objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="Project" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Users\Toshiba\Desktop\CraftProject\Project\.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Core\Graphics.cpp" />
+		<Unit filename="Core\Graphics.h" />
+		<Unit filename="Core\Gui.cpp" />
+		<Unit filename="Core\Gui.h" />
+		<Unit filename="Core\Input.cpp" />
+		<Unit filename="Core\Input.h" />
+		<Unit filename="Core\Math.cpp" />
+		<Unit filename="Core\Math.h" />
+		<Unit filename="Core\Resources.cpp" />
+		<Unit filename="Core\Resources.h" />
+		<Unit filename="Core\Sound.cpp" />
+		<Unit filename="Core\Sound.h" />
+		<Unit filename="Core\System.cpp" />
+		<Unit filename="Core\System.h" />
+		<Unit filename="Core\World.cpp" />
+		<Unit filename="Core\World.h" />
+		<Unit filename="Core\glext.h" />
+		<Unit filename="Creatures.cpp" />
+		<Unit filename="Creatures.h" />
+		<Unit filename="Effects.cpp" />
+		<Unit filename="Effects.h" />
+		<Unit filename="Entity.cpp" />
+		<Unit filename="Entity.h" />
+		<Unit filename="EntityFactory.cpp" />
+		<Unit filename="EntityFactory.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Item.cpp" />
+		<Unit filename="Item.h" />
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.h" />
+		<Unit filename="LevelGen.cpp" />
+		<Unit filename="LevelGen.h" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="Tiles.cpp" />
+		<Unit filename="Tiles.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
